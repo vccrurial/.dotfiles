@@ -1,0 +1,14 @@
+[column]
+	ui = "auto"
+
+[core]
+	autocrlf = false
+	editor = "hx"
+	safecrlf = false
+
+[init]
+	defaultBranch = "main"
+
+[user]
+	email = "fake@coolmail.com"
+	name = "vccrurial"
