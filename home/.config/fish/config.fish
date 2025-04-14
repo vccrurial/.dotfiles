@@ -25,7 +25,7 @@ abbr --add -- se sudoedit
 abbr --add -- sys systemctl
 
 if test "$check_distro" = NixOS
-    abbr --add -- reb 'sudo nixos-rebuild switch --flake $HOME/dotfiles/nixos/. --impure'
+    abbr --add -- reb 'sudo nixos-rebuild switch --flake $HOME/.dotfiles/nixos/. --impure'
 end
 
 function postexec_test --on-event fish_postexec
