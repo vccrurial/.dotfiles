@@ -10,12 +10,12 @@
   home.shell.enableBashIntegration = true;
   home.stateVersion = "25.05";
   home.packages = with pkgs; [
-    keepassxc wget2 uv bat ripgrep ripgrep-all fd dust gtrash
-    gitFull rclone btop htop rqbit comma vtm
+    wget2 uv bat ripgrep ripgrep-all fd dust gtrash
+    gitFull rclone btop htop comma
     yazi exiftool file poppler_utils ffmpeg ffmpegthumbnailer p7zip atool unar unrar-wrapper
-    xclip wl-clipboard xdg-terminal-exec-mkhl warpd
+    wl-clipboard xdg-terminal-exec-mkhl
     fish zoxide any-nix-shell
-    emacs30-gtk3 helix vscode
+    emacs-pgtk helix
     nerd-fonts.jetbrains-mono
   ];
 }
